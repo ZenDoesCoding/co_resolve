@@ -1,0 +1,53 @@
+# Co-Resolve Configuration File
+# -----------------------------
+# agent.turbo_mode (bool): 
+#   If True, automatically pushes fixes and creates a PR without waiting.
+#   Default: False
+#
+# agent.reasoning_mode (bool):
+#   If True, enables advanced reasoning for supported models (e.g. gemma-4).
+#   Default: True
+#
+# agent.max_attempts (int):
+#   Maximum number of tool calls the agent can make before giving up.
+#   Range: 1 to 100
+#   Default: 30
+#
+# agent.max_rpm (int):
+#   Maximum requests per minute for the LLM.
+#   Default: 15
+#
+# agent.max_tpm (int):
+#   Maximum tokens per minute across all LLM calls.
+#   Default: 250000
+#
+# agent.max_rpd (int):
+#   Maximum requests per day for the LLM.
+#   Default: 500
+#
+# tui.show_server_logs (bool):
+#   If True, raw web server logs (e.g. "Webhook received") are shown in the TUI History.
+#   Default: False
+#
+# tui.theme (string):
+#   The theme to use for the TUI.
+#   Options: textual-dark, textual-light (or others if registered)
+#   Default: textual-dark
+#
+# tui.debug_mode (bool):
+#   If True, shows all logs in the Chat Window (like before the TUI).
+#   If False, only shows high-level agent messages.
+#   Default: True
+
+agent:
+  max_attempts: 150
+  max_rpd: 500
+  max_rpm: 15
+  max_tpm: 250000
+  reasoning_mode: true
+  turbo_mode: false
+tui:
+  debug_mode: true
+  show_misc_info: false
+  show_server_logs: true
+  theme: catppuccin-latte
