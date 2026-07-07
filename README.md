@@ -201,5 +201,5 @@ python benchmark.py
 ## Planned Features
 
 - [ ] Support GitLab webhooks.
-- [ ] Add a chat widget in the Textual TUI to query the agent directly during runs (HITL).
+- [ ] Add a chat widget in the TUI to query the agent directly during runs (HITL).
 - [ ] RAG with semantic search by using embedding model for each entry of the knowledge base.
