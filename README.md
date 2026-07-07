@@ -4,7 +4,7 @@
 <div align="center">
   <img src="assets/TUI_1.png" alt="TUI_1" width="1200">
   <br>
-  <sub><i>Main dashboard overview</i></sub>
+  <i>Main dashboard overview</i>
 </div>
 
 Co-Resolve is an autonomous, self-correcting CI/CD resolution agent designed to scan, diagnose, test, and automatically patch software defects. Built around the **Agent-as-Runtime (AAR)** pattern, Co-Resolve integrates LLM-driven orchestrators with isolated Docker sandbox validation runtimes and FastAPI webhook servers to close the feedback loop between failed CI builds and automatic code resolution.
@@ -45,7 +45,7 @@ By switching to the **GenAI SDK** (which handles things like stateful management
   <div>
     <img src="assets/TUI_3.png" alt="TUI_3" width="450">
     <br>
-    <sub><i>Preview of dark mode theme in the dashboard</i></sub>
+    <i>Preview of dark mode theme in the dashboard</i>
   </div>
 
   - Neatly formatted **statistics (tokens/cost and time)**:
@@ -53,7 +53,7 @@ By switching to the **GenAI SDK** (which handles things like stateful management
   <div>
     <img src="assets/TUI_2.png" alt="TUI_2" width="600">
     <br>
-    <sub><i>Pipeline summary after finishing</i></sub>
+    <i>Pipeline summary after finishing</i>
   </div>
 
 
