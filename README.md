@@ -1,10 +1,11 @@
 <p align="center">
   <img src="assets/logo.svg" alt="Co-Resolve Logo" width="550">
 </p>
-<figure align="center">
+<div align="center">
   <img src="assets/TUI_1.png" alt="TUI_1" width="1200">
-    <figcaption><i>Main dashboard overview</i></figcaption>
-  </figure>
+  <br>
+  <sub><i>Main dashboard overview</i></sub>
+</div>
 
 Co-Resolve is an autonomous, self-correcting CI/CD resolution agent designed to scan, diagnose, test, and automatically patch software defects. Built around the **Agent-as-Runtime (AAR)** pattern, Co-Resolve integrates LLM-driven orchestrators with isolated Docker sandbox validation runtimes and FastAPI webhook servers to close the feedback loop between failed CI builds and automatic code resolution.
 
@@ -41,17 +42,19 @@ By switching to the **GenAI SDK** (which handles things like stateful management
   - Real-time log scrolling
   - **quickly load aesthetic themes (Catppuccin, Nord, Dracula, etc.)**:
 
-  <figure>
+  <div>
     <img src="assets/TUI_3.png" alt="TUI_3" width="450">
-    <figcaption><i>Preview of dark mode theme in the dashboard</i></figcaption>
-  </figure>
+    <br>
+    <sub><i>Preview of dark mode theme in the dashboard</i></sub>
+  </div>
 
   - Neatly formatted **statistics (tokens/cost and time)**:
 
-  <figure>
+  <div>
     <img src="assets/TUI_2.png" alt="TUI_2" width="600">
-    <figcaption><i>Pipeline summary after finishing</i></figcaption>
-  </figure>
+    <br>
+    <sub><i>Pipeline summary after finishing</i></sub>
+  </div>
 
 
 ## Directory Layout
